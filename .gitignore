@@ -112,3 +112,7 @@ tmp/
 *.png
 *.svg
 .idea/
+data/
+
+# jupyter
+notebooks/.ipynb_checkpoints/
