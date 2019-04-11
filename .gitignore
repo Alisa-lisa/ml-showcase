@@ -113,6 +113,7 @@ tmp/
 *.svg
 .idea/
 data/
+models/
 
 # jupyter
 notebooks/.ipynb_checkpoints/
