@@ -5,5 +5,6 @@ env:
 
 .PHONY: start-jupyter
 start-jupyter:
+	rm -r env/
 	make env
-	env/bin/jupyter notebook notebooks/
+	env/bin/jupyter notebook .
