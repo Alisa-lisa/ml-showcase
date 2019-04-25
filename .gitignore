@@ -114,7 +114,6 @@ tmp/
 .idea/
 data/
 personal/
-models/
 
 # jupyter
 notebooks/.ipynb_checkpoints/
