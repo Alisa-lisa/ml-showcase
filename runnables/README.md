@@ -5,4 +5,8 @@
 3. Structure is similar to an in existing flask app
 
 
-How to run:  ```make run```
+How to run:
+1. Mac, Linux: ```make run```
+2. Windows:
+- run ```chmod +x build.sh```
+- run ```./build.sh```
