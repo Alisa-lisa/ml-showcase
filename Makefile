@@ -12,8 +12,3 @@ start-jupyter:
 .PHONY: simple-start
 simple-start:
 	env/bin/jupyter notebook .
-
-.PHONY: run
-run:
-	cd runnables && docker build -t proto .
-	cd runnables && docker run -p 5000:5000 proto

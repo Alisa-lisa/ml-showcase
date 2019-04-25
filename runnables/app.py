@@ -35,7 +35,7 @@ def predict():
     # prepare features
     if timestamp is not None:
         prepared_input = extract_features(timestamp)
-        return jsonify({"Message":"Input missing",
+        return jsonify({"Message":"Yay! Predicted",
                         "Result": human_predict(timestamp, model, meta)})
     else:
         return jsonify({"Message":"Input missing", "Result":-1.0})
