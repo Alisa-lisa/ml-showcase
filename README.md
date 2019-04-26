@@ -7,7 +7,16 @@ Showcases for different ml algorithms and their usages
 
 
 ### Usage for notebooks
-1. Install dependencies and start jupyter: ```make start-jupyter```
+1. (Mac, Linux)
+- Install dependencies and start jupyter: ```make start-jupyter```
+- Simple start jupyter with existing env: ```make simple-start```
+
+2. Windows
+- run ```chmod +x make.sh```
+- Install dependencies and start jupyter: ```./make.sh start-jupyter```
+- Simple start jupyter with existing env: ```./make.sh simple-start```
+
+
 
 ### Usage for runnables:
 1. See README in runnables
